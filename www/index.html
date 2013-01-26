@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Frequently-Connected Mobile</title>
-        <script src="cordova-2.1.0.js" type="text/javascript"></script>
+        <script type="text/javascript" src="cordova-2.1.0.js"></script>
         <script type="text/javascript" src="IndexedDBShim.min.js"></script>
         <script type="text/javascript" src="pouch.alpha.js"></script>
         <!-- app stuff -->
@@ -14,10 +14,11 @@
     </head>
     <body>
     	<h1>Hello...</h1>
-    	<a href="#" onclick="location.reload();">Reload</a>
+    	<p><a href="#" onclick="location.reload();">Reload</a></p>
+        <p><a href="tc/Graph%20_%20True%20Colours.html">True Colours</a></p>
         <script type = "text/javascript">
             var running = false;
-            var syncUrl = 'http://localhost:5984/myapp';
+            var syncUrl = 'http://timp.iriscouch.com/';
 
             function getDoc(id, callback) {
 				pouchdb.allDocs({include_docs : true}, function(err, docs) {
