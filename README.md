@@ -1,15 +1,32 @@
-# PouchDB PhoneGap App Launcher
+# Frequently-Connected Mobile platform for web apps
 
-This is a getting started kit for PouchDB and iOS. The key element here is you can update the JavaScript code running on the device, without stopping and rebuilding the Xcode project. Just upload your code to the device and reload. This takes some of the tedium out of development.
+This is a getting started kit for web apps where you are using:
 
-Included:
+* JavaScript/HTML/CSS front-end web app code that is shared by desktop and mobile browsers and PhoneGap-wrapped mobile app installations. Front-end code lives in the www/ directory.
+* CouchDB for back-end data store.
 
-* Double-click ready Xcode project loaded with PhoneGap and PouchDB
-* Node.js script to push HTML5 app to sync server
+This repo includes:
+
+* iOS Xcode project to build PhoneGap app for iPhone/iPad. The key element here is you can update the JavaScript code running on the device, without stopping and rebuilding the Xcode project. Just upload your code to the device and reload. This takes some of the tedium out of development.
+* http://build.phonegap.com/ can build install packages for Android, Blackberry, etc
+* http://PouchDB.com provides a local replica of the back-end http://CouchDB.com master which will try to sync whenever the app is in the foreground on the phone
+* jQuery, Mustache and Showdown JavaScript libraries are included
+
+ToDo:
+* responsive CSS
+* authentication and data encryption in case the back-end data is considered to be personal or sensitive
+
+
+Also included:
+
+* Node.js script to push HTML5 app to sync server - not sure what this is for yet???
+
+
+
 
 You bring:
 
-* A server that syncs with PouchDB. I used Couchbase Server with Basecouch but there are lots of alternatives.
+* A back-end CouchDB server. http://iriscouch.com and basecouch.com can host this for you.
 * Your app code (HTML, CSS and JavaScript)
 
 ## Deploy Your App
