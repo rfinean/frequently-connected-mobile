@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html style="" class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]--><head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>
+		Graph : True Colours
+	</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" href="Graph%20_%20True%20Colours_files/jquery-ui-1.css" rel="stylesheet"> 	
+	<link href="Graph%20_%20True%20Colours_files/css.css" rel="stylesheet" type="text/css">
+	
+	
+	<link rel="stylesheet" href="Graph%20_%20True%20Colours_files/system-style.css" type="text/css">
+	
+
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery-1.js"> </script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $("#search").watermark("Search");
+        });
+    </script>
+
+<script type="text/javascript">
+
+  graph1Data = [{"color":"#0000ff","data":[[1179138759000,0,"<b>Depression (QIDS)<\/b><br/>Date: Mon 14 May 2007<br/>Score: 0"],[1179739379000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 21 May 2007<br/>Score: 1"],[1180453750000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 29 May 2007<br/>Score: 1"],[1181211509000,1,"<b>Depression (QIDS)<\/b><br/>Date: Thu 7 Jun 2007<br/>Score: 1"],[1181719073000,7,"<b>Depression (QIDS)<\/b><br/>Date: Wed 13 Jun 2007<br/>Score: 7"],[1182434650000,2,"<b>Depression (QIDS)<\/b><br/>Date: Thu 21 Jun 2007<br/>Score: 2"],[1183364849000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 2 Jul 2007<br/>Score: 1"],[1184078162000,0,"<b>Depression (QIDS)<\/b><br/>Date: Tue 10 Jul 2007<br/>Score: 0"],[1184939765000,0,"<b>Depression (QIDS)<\/b><br/>Date: Fri 20 Jul 2007<br/>Score: 0"],[1185217391000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 23 Jul 2007<br/>Score: 1"],[1185787406000,0,"<b>Depression (QIDS)<\/b><br/>Date: Mon 30 Jul 2007<br/>Score: 0"],[1186595104000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 8 Aug 2007<br/>Score: 2"],[1187031010000,5,"<b>Depression (QIDS)<\/b><br/>Date: Mon 13 Aug 2007<br/>Score: 5"],[1187643694000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 20 Aug 2007<br/>Score: 2"],[1188219715000,10,"<b>Depression (QIDS)<\/b><br/>Date: Mon 27 Aug 2007<br/>Score: 10"],[1188895611000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 4 Sep 2007<br/>Score: 6"],[1189412974000,6,"<b>Depression (QIDS)<\/b><br/>Date: Mon 10 Sep 2007<br/>Score: 6"],[1190097244000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 18 Sep 2007<br/>Score: 4"],[1190668673000,4,"<b>Depression (QIDS)<\/b><br/>Date: Mon 24 Sep 2007<br/>Score: 4"],[1191769491000,2,"<b>Depression (QIDS)<\/b><br/>Date: Sun 7 Oct 2007<br/>Score: 2"],[1191833042000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 8 Oct 2007<br/>Score: 2"],[1192602053000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 17 Oct 2007<br/>Score: 2"],[1193205030000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 24 Oct 2007<br/>Score: 2"],[1193661204000,4,"<b>Depression (QIDS)<\/b><br/>Date: Mon 29 Oct 2007<br/>Score: 4"],[1194349584000,5,"<b>Depression (QIDS)<\/b><br/>Date: Tue 6 Nov 2007<br/>Score: 5"],[1194954717000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 13 Nov 2007<br/>Score: 6"],[1196151152000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 27 Nov 2007<br/>Score: 2"],[1196151272000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 27 Nov 2007<br/>Score: 4"],[1196872072000,7,"<b>Depression (QIDS)<\/b><br/>Date: Wed 5 Dec 2007<br/>Score: 7"],[1197455136000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 12 Dec 2007<br/>Score: 2"],[1198505539000,3,"<b>Depression (QIDS)<\/b><br/>Date: Mon 24 Dec 2007<br/>Score: 3"],[1198505612000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 24 Dec 2007<br/>Score: 2"],[1199301313000,3,"<b>Depression (QIDS)<\/b><br/>Date: Wed 2 Jan 2008<br/>Score: 3"],[1199711067000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 7 Jan 2008<br/>Score: 2"],[1201794167000,0,"<b>Depression (QIDS)<\/b><br/>Date: Thu 31 Jan 2008<br/>Score: 0"],[1201794530000,2,"<b>Depression (QIDS)<\/b><br/>Date: Thu 31 Jan 2008<br/>Score: 2"],[1202479516000,0,"<b>Depression (QIDS)<\/b><br/>Date: Fri 8 Feb 2008<br/>Score: 0"],[1203935502000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 25 Feb 2008<br/>Score: 1"],[1203941249000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 25 Feb 2008<br/>Score: 2"],[1204716178000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 5 Mar 2008<br/>Score: 1"],[1205144327000,0,"<b>Depression (QIDS)<\/b><br/>Date: Mon 10 Mar 2008<br/>Score: 0"],[1207128608000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 2 Apr 2008<br/>Score: 2"],[1207128668000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 2 Apr 2008<br/>Score: 1"],[1207806297000,2,"<b>Depression (QIDS)<\/b><br/>Date: Thu 10 Apr 2008<br/>Score: 2"],[1208352309000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 16 Apr 2008<br/>Score: 1"],[1208785812000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 21 Apr 2008<br/>Score: 1"],[1209380400000,0,"<b>Depression (QIDS)<\/b><br/>Date: Mon 28 Apr 2008<br/>Score: 0"],[1209985200000,0,"<b>Depression (QIDS)<\/b><br/>Date: Mon 5 May 2008<br/>Score: 0"],[1210669602000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 13 May 2008<br/>Score: 1"],[1211185874000,0,"<b>Depression (QIDS)<\/b><br/>Date: Mon 19 May 2008<br/>Score: 0"],[1211956384000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 28 May 2008<br/>Score: 1"],[1212607925000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 4 Jun 2008<br/>Score: 1"],[1213003641000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 9 Jun 2008<br/>Score: 1"],[1213709246000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 17 Jun 2008<br/>Score: 1"],[1214217510000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 23 Jun 2008<br/>Score: 1"],[1214983029000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 2 Jul 2008<br/>Score: 1"],[1215424583000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 7 Jul 2008<br/>Score: 1"],[1216223047000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 16 Jul 2008<br/>Score: 1"],[1216629554000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 21 Jul 2008<br/>Score: 1"],[1217233849000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 28 Jul 2008<br/>Score: 1"],[1217850879000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 4 Aug 2008<br/>Score: 1"],[1218528830000,9,"<b>Depression (QIDS)<\/b><br/>Date: Tue 12 Aug 2008<br/>Score: 9"],[1219075478000,13,"<b>Depression (QIDS)<\/b><br/>Date: Mon 18 Aug 2008<br/>Score: 13"],[1219656586000,18,"<b>Depression (QIDS)<\/b><br/>Date: Mon 25 Aug 2008<br/>Score: 18"],[1220430915000,13,"<b>Depression (QIDS)<\/b><br/>Date: Wed 3 Sep 2008<br/>Score: 13"],[1220870495000,11,"<b>Depression (QIDS)<\/b><br/>Date: Mon 8 Sep 2008<br/>Score: 11"],[1221468188000,8,"<b>Depression (QIDS)<\/b><br/>Date: Mon 15 Sep 2008<br/>Score: 8"],[1222072623000,9,"<b>Depression (QIDS)<\/b><br/>Date: Mon 22 Sep 2008<br/>Score: 9"],[1222679360000,10,"<b>Depression (QIDS)<\/b><br/>Date: Mon 29 Sep 2008<br/>Score: 10"],[1223821930000,8,"<b>Depression (QIDS)<\/b><br/>Date: Sun 12 Oct 2008<br/>Score: 8"],[1223894203000,7,"<b>Depression (QIDS)<\/b><br/>Date: Mon 13 Oct 2008<br/>Score: 7"],[1224493171000,7,"<b>Depression (QIDS)<\/b><br/>Date: Mon 20 Oct 2008<br/>Score: 7"],[1225270324000,4,"<b>Depression (QIDS)<\/b><br/>Date: Wed 29 Oct 2008<br/>Score: 4"],[1225896378000,6,"<b>Depression (QIDS)<\/b><br/>Date: Wed 5 Nov 2008<br/>Score: 6"],[1226360538000,6,"<b>Depression (QIDS)<\/b><br/>Date: Mon 10 Nov 2008<br/>Score: 6"],[1226920811000,4,"<b>Depression (QIDS)<\/b><br/>Date: Mon 17 Nov 2008<br/>Score: 4"],[1228127114000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 1 Dec 2008<br/>Score: 2"],[1229337368000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 15 Dec 2008<br/>Score: 2"],[1230052749000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 23 Dec 2008<br/>Score: 1"],[1230546113000,0,"<b>Depression (QIDS)<\/b><br/>Date: Mon 29 Dec 2008<br/>Score: 0"],[1231247311000,0,"<b>Depression (QIDS)<\/b><br/>Date: Tue 6 Jan 2009<br/>Score: 0"],[1231755763000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 12 Jan 2009<br/>Score: 1"],[1232360939000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 19 Jan 2009<br/>Score: 1"],[1233054111000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 27 Jan 2009<br/>Score: 1"],[1233575585000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 2 Feb 2009<br/>Score: 1"],[1234176244000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 9 Feb 2009<br/>Score: 1"],[1234868239000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 17 Feb 2009<br/>Score: 1"],[1235385058000,7,"<b>Depression (QIDS)<\/b><br/>Date: Mon 23 Feb 2009<br/>Score: 7"],[1235990444000,8,"<b>Depression (QIDS)<\/b><br/>Date: Mon 2 Mar 2009<br/>Score: 8"],[1236604592000,8,"<b>Depression (QIDS)<\/b><br/>Date: Mon 9 Mar 2009<br/>Score: 8"],[1237199708000,13,"<b>Depression (QIDS)<\/b><br/>Date: Mon 16 Mar 2009<br/>Score: 13"],[1237805315000,12,"<b>Depression (QIDS)<\/b><br/>Date: Mon 23 Mar 2009<br/>Score: 12"],[1238402550000,15,"<b>Depression (QIDS)<\/b><br/>Date: Mon 30 Mar 2009<br/>Score: 15"],[1239136108000,15,"<b>Depression (QIDS)<\/b><br/>Date: Tue 7 Apr 2009<br/>Score: 15"],[1239695199000,11,"<b>Depression (QIDS)<\/b><br/>Date: Tue 14 Apr 2009<br/>Score: 11"],[1240305673000,5,"<b>Depression (QIDS)<\/b><br/>Date: Tue 21 Apr 2009<br/>Score: 5"],[1240823377000,4,"<b>Depression (QIDS)<\/b><br/>Date: Mon 27 Apr 2009<br/>Score: 4"],[1241430088000,3,"<b>Depression (QIDS)<\/b><br/>Date: Mon 4 May 2009<br/>Score: 3"],[1242199322000,4,"<b>Depression (QIDS)<\/b><br/>Date: Wed 13 May 2009<br/>Score: 4"],[1242635006000,3,"<b>Depression (QIDS)<\/b><br/>Date: Mon 18 May 2009<br/>Score: 3"],[1243283078000,5,"<b>Depression (QIDS)<\/b><br/>Date: Mon 25 May 2009<br/>Score: 5"],[1243844586000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 1 Jun 2009<br/>Score: 2"],[1244528704000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 9 Jun 2009<br/>Score: 4"],[1245147801000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 16 Jun 2009<br/>Score: 2"],[1245838027000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 24 Jun 2009<br/>Score: 2"],[1246265291000,3,"<b>Depression (QIDS)<\/b><br/>Date: Mon 29 Jun 2009<br/>Score: 3"],[1247041487000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 8 Jul 2009<br/>Score: 2"],[1247536628000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 14 Jul 2009<br/>Score: 2"],[1248184696000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 21 Jul 2009<br/>Score: 2"],[1248742639000,8,"<b>Depression (QIDS)<\/b><br/>Date: Tue 28 Jul 2009<br/>Score: 8"],[1249299010000,12,"<b>Depression (QIDS)<\/b><br/>Date: Mon 3 Aug 2009<br/>Score: 12"],[1250151673000,4,"<b>Depression (QIDS)<\/b><br/>Date: Thu 13 Aug 2009<br/>Score: 4"],[1250497694000,10,"<b>Depression (QIDS)<\/b><br/>Date: Mon 17 Aug 2009<br/>Score: 10"],[1251119337000,13,"<b>Depression (QIDS)<\/b><br/>Date: Mon 24 Aug 2009<br/>Score: 13"],[1251707339000,10,"<b>Depression (QIDS)<\/b><br/>Date: Mon 31 Aug 2009<br/>Score: 10"],[1252326474000,6,"<b>Depression (QIDS)<\/b><br/>Date: Mon 7 Sep 2009<br/>Score: 6"],[1252918147000,8,"<b>Depression (QIDS)<\/b><br/>Date: Mon 14 Sep 2009<br/>Score: 8"],[1253521496000,11,"<b>Depression (QIDS)<\/b><br/>Date: Mon 21 Sep 2009<br/>Score: 11"],[1254138677000,13,"<b>Depression (QIDS)<\/b><br/>Date: Mon 28 Sep 2009<br/>Score: 13"],[1254734982000,14,"<b>Depression (QIDS)<\/b><br/>Date: Mon 5 Oct 2009<br/>Score: 14"],[1255431752000,14,"<b>Depression (QIDS)<\/b><br/>Date: Tue 13 Oct 2009<br/>Score: 14"],[1256024812000,17,"<b>Depression (QIDS)<\/b><br/>Date: Tue 20 Oct 2009<br/>Score: 17"],[1256575854000,13,"<b>Depression (QIDS)<\/b><br/>Date: Mon 26 Oct 2009<br/>Score: 13"],[1257160208000,5,"<b>Depression (QIDS)<\/b><br/>Date: Mon 2 Nov 2009<br/>Score: 5"],[1257768881000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 9 Nov 2009<br/>Score: 2"],[1258368108000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 16 Nov 2009<br/>Score: 2"],[1258992909000,4,"<b>Depression (QIDS)<\/b><br/>Date: Mon 23 Nov 2009<br/>Score: 4"],[1259577682000,6,"<b>Depression (QIDS)<\/b><br/>Date: Mon 30 Nov 2009<br/>Score: 6"],[1260280195000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 8 Dec 2009<br/>Score: 6"],[1260790334000,6,"<b>Depression (QIDS)<\/b><br/>Date: Mon 14 Dec 2009<br/>Score: 6"],[1261477738000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 22 Dec 2009<br/>Score: 4"],[1262608988000,3,"<b>Depression (QIDS)<\/b><br/>Date: Mon 4 Jan 2010<br/>Score: 3"],[1263206030000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 11 Jan 2010<br/>Score: 2"],[1263903538000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 19 Jan 2010<br/>Score: 1"],[1264414889000,1,"<b>Depression (QIDS)<\/b><br/>Date: Mon 25 Jan 2010<br/>Score: 1"],[1265114148000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 2 Feb 2010<br/>Score: 3"],[1265639094000,4,"<b>Depression (QIDS)<\/b><br/>Date: Mon 8 Feb 2010<br/>Score: 4"],[1266398261000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 17 Feb 2010<br/>Score: 2"],[1266848583000,4,"<b>Depression (QIDS)<\/b><br/>Date: Mon 22 Feb 2010<br/>Score: 4"],[1267558246000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 2 Mar 2010<br/>Score: 2"],[1268207811000,3,"<b>Depression (QIDS)<\/b><br/>Date: Wed 10 Mar 2010<br/>Score: 3"],[1268811972000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 17 Mar 2010<br/>Score: 2"],[1269281198000,2,"<b>Depression (QIDS)<\/b><br/>Date: Mon 22 Mar 2010<br/>Score: 2"],[1269953365000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 30 Mar 2010<br/>Score: 3"],[1270632658000,3,"<b>Depression (QIDS)<\/b><br/>Date: Wed 7 Apr 2010<br/>Score: 3"],[1271147460000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 13 Apr 2010<br/>Score: 4"],[1271757132000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 20 Apr 2010<br/>Score: 2"],[1272368734000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 27 Apr 2010<br/>Score: 3"],[1272970653000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 4 May 2010<br/>Score: 3"],[1273656264000,3,"<b>Depression (QIDS)<\/b><br/>Date: Wed 12 May 2010<br/>Score: 3"],[1274179151000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 18 May 2010<br/>Score: 3"],[1274790377000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 25 May 2010<br/>Score: 3"],[1275388084000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 1 Jun 2010<br/>Score: 4"],[1275990314000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 8 Jun 2010<br/>Score: 4"],[1276602006000,5,"<b>Depression (QIDS)<\/b><br/>Date: Tue 15 Jun 2010<br/>Score: 5"],[1277204363000,7,"<b>Depression (QIDS)<\/b><br/>Date: Tue 22 Jun 2010<br/>Score: 7"],[1277803576000,7,"<b>Depression (QIDS)<\/b><br/>Date: Tue 29 Jun 2010<br/>Score: 7"],[1278410497000,8,"<b>Depression (QIDS)<\/b><br/>Date: Tue 6 Jul 2010<br/>Score: 8"],[1279012998000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 13 Jul 2010<br/>Score: 6"],[1279621891000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 20 Jul 2010<br/>Score: 3"],[1280302347000,3,"<b>Depression (QIDS)<\/b><br/>Date: Wed 28 Jul 2010<br/>Score: 3"],[1280862670000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 3 Aug 2010<br/>Score: 4"],[1281465978000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 10 Aug 2010<br/>Score: 6"],[1282058598000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 17 Aug 2010<br/>Score: 6"],[1282642410000,7,"<b>Depression (QIDS)<\/b><br/>Date: Tue 24 Aug 2010<br/>Score: 7"],[1283247681000,7,"<b>Depression (QIDS)<\/b><br/>Date: Tue 31 Aug 2010<br/>Score: 7"],[1283868923000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 7 Sep 2010<br/>Score: 6"],[1284495701000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 14 Sep 2010<br/>Score: 6"],[1285062921000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 21 Sep 2010<br/>Score: 3"],[1285689496000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 28 Sep 2010<br/>Score: 3"],[1286290135000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 5 Oct 2010<br/>Score: 2"],[1286876749000,0,"<b>Depression (QIDS)<\/b><br/>Date: Tue 12 Oct 2010<br/>Score: 0"],[1287486483000,0,"<b>Depression (QIDS)<\/b><br/>Date: Tue 19 Oct 2010<br/>Score: 0"],[1288085266000,0,"<b>Depression (QIDS)<\/b><br/>Date: Tue 26 Oct 2010<br/>Score: 0"],[1288693870000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 2 Nov 2010<br/>Score: 1"],[1289299864000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 9 Nov 2010<br/>Score: 2"],[1289909216000,2,"<b>Depression (QIDS)<\/b><br/>Date: Tue 16 Nov 2010<br/>Score: 2"],[1290508037000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 23 Nov 2010<br/>Score: 4"],[1291113310000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 30 Nov 2010<br/>Score: 3"],[1291718299000,3,"<b>Depression (QIDS)<\/b><br/>Date: Tue 7 Dec 2010<br/>Score: 3"],[1292322302000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 14 Dec 2010<br/>Score: 4"],[1292928149000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 21 Dec 2010<br/>Score: 4"],[1293538156000,9,"<b>Depression (QIDS)<\/b><br/>Date: Tue 28 Dec 2010<br/>Score: 9"],[1294137079000,9,"<b>Depression (QIDS)<\/b><br/>Date: Tue 4 Jan 2011<br/>Score: 9"],[1294750063000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 11 Jan 2011<br/>Score: 6"],[1295353256000,7,"<b>Depression (QIDS)<\/b><br/>Date: Tue 18 Jan 2011<br/>Score: 7"],[1296034141000,7,"<b>Depression (QIDS)<\/b><br/>Date: Wed 26 Jan 2011<br/>Score: 7"],[1296557355000,7,"<b>Depression (QIDS)<\/b><br/>Date: Tue 1 Feb 2011<br/>Score: 7"],[1297251576000,5,"<b>Depression (QIDS)<\/b><br/>Date: Wed 9 Feb 2011<br/>Score: 5"],[1297769146000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 15 Feb 2011<br/>Score: 4"],[1298454802000,1,"<b>Depression (QIDS)<\/b><br/>Date: Wed 23 Feb 2011<br/>Score: 1"],[1298976035000,10,"<b>Depression (QIDS)<\/b><br/>Date: Tue 1 Mar 2011<br/>Score: 10"],[1299583565000,12,"<b>Depression (QIDS)<\/b><br/>Date: Tue 8 Mar 2011<br/>Score: 12"],[1300274250000,8,"<b>Depression (QIDS)<\/b><br/>Date: Wed 16 Mar 2011<br/>Score: 8"],[1300794820000,8,"<b>Depression (QIDS)<\/b><br/>Date: Tue 22 Mar 2011<br/>Score: 8"],[1301390447000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 29 Mar 2011<br/>Score: 4"],[1301995692000,5,"<b>Depression (QIDS)<\/b><br/>Date: Tue 5 Apr 2011<br/>Score: 5"],[1302622389000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 12 Apr 2011<br/>Score: 4"],[1303222938000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 19 Apr 2011<br/>Score: 4"],[1303912896000,5,"<b>Depression (QIDS)<\/b><br/>Date: Wed 27 Apr 2011<br/>Score: 5"],[1304432073000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 3 May 2011<br/>Score: 4"],[1305105828000,3,"<b>Depression (QIDS)<\/b><br/>Date: Wed 11 May 2011<br/>Score: 3"],[1305625346000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 17 May 2011<br/>Score: 4"],[1306230446000,7,"<b>Depression (QIDS)<\/b><br/>Date: Tue 24 May 2011<br/>Score: 7"],[1306837068000,5,"<b>Depression (QIDS)<\/b><br/>Date: Tue 31 May 2011<br/>Score: 5"],[1307524943000,7,"<b>Depression (QIDS)<\/b><br/>Date: Wed 8 Jun 2011<br/>Score: 7"],[1308045887000,10,"<b>Depression (QIDS)<\/b><br/>Date: Tue 14 Jun 2011<br/>Score: 10"],[1308734811000,7,"<b>Depression (QIDS)<\/b><br/>Date: Wed 22 Jun 2011<br/>Score: 7"],[1309256358000,6,"<b>Depression (QIDS)<\/b><br/>Date: Tue 28 Jun 2011<br/>Score: 6"],[1309878572000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 5 Jul 2011<br/>Score: 1"],[1310549285000,5,"<b>Depression (QIDS)<\/b><br/>Date: Wed 13 Jul 2011<br/>Score: 5"],[1311106505000,10,"<b>Depression (QIDS)<\/b><br/>Date: Tue 19 Jul 2011<br/>Score: 10"],[1312290351000,8,"<b>Depression (QIDS)<\/b><br/>Date: Tue 2 Aug 2011<br/>Score: 8"],[1313136754000,8,"<b>Depression (QIDS)<\/b><br/>Date: Fri 12 Aug 2011<br/>Score: 8"],[1313493086000,9,"<b>Depression (QIDS)<\/b><br/>Date: Tue 16 Aug 2011<br/>Score: 9"],[1315297154000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 6 Sep 2011<br/>Score: 4"],[1315992583000,4,"<b>Depression (QIDS)<\/b><br/>Date: Wed 14 Sep 2011<br/>Score: 4"],[1316511181000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 20 Sep 2011<br/>Score: 4"],[1317199533000,4,"<b>Depression (QIDS)<\/b><br/>Date: Wed 28 Sep 2011<br/>Score: 4"],[1317806489000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 5 Oct 2011<br/>Score: 2"],[1318412415000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 12 Oct 2011<br/>Score: 2"],[1319010963000,2,"<b>Depression (QIDS)<\/b><br/>Date: Wed 19 Oct 2011<br/>Score: 2"],[1319555831000,1,"<b>Depression (QIDS)<\/b><br/>Date: Tue 25 Oct 2011<br/>Score: 1"],[1320145764000,4,"<b>Depression (QIDS)<\/b><br/>Date: Tue 1 Nov 2011<br/>Score: 4"],[1326303025000,14,"<b>Depression (QIDS)<\/b><br/>Date: Wed 11 Jan 2012<br/>Score: 14"]],"lineWidth":2,"lines":{"show":true},"label":"Depression (QIDS)","points":{"symbol":"circle","hoverable":true,"radius":2,"show":true}},{"dashes":{"dashLength":3,"lineWidth":2,"show":true},"color":"#0000ff","data":[],"lineWidth":2,"label":""},{"color":"gray","data":[],"shadowSize":0,"label":"","points":{"symbol":"cross","hoverable":true,"radius":4,"show":true}}];
+
+graph2Data = [{"color":"#ff0000","data":[[1179138172000,1,"<b>Mania (Altman)<\/b><br/>Date: Mon 14 May 2007<br/>Score: 1"],[1179739169000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 21 May 2007<br/>Score: 0"],[1180453669000,1,"<b>Mania (Altman)<\/b><br/>Date: Tue 29 May 2007<br/>Score: 1"],[1181211326000,0,"<b>Mania (Altman)<\/b><br/>Date: Thu 7 Jun 2007<br/>Score: 0"],[1181717389000,4,"<b>Mania (Altman)<\/b><br/>Date: Wed 13 Jun 2007<br/>Score: 4"],[1182434775000,2,"<b>Mania (Altman)<\/b><br/>Date: Thu 21 Jun 2007<br/>Score: 2"],[1183361553000,6,"<b>Mania (Altman)<\/b><br/>Date: Mon 2 Jul 2007<br/>Score: 6"],[1184078304000,6,"<b>Mania (Altman)<\/b><br/>Date: Tue 10 Jul 2007<br/>Score: 6"],[1184939956000,5,"<b>Mania (Altman)<\/b><br/>Date: Fri 20 Jul 2007<br/>Score: 5"],[1185217630000,9,"<b>Mania (Altman)<\/b><br/>Date: Mon 23 Jul 2007<br/>Score: 9"],[1185808910000,5,"<b>Mania (Altman)<\/b><br/>Date: Mon 30 Jul 2007<br/>Score: 5"],[1186419538000,3,"<b>Mania (Altman)<\/b><br/>Date: Mon 6 Aug 2007<br/>Score: 3"],[1187010373000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 13 Aug 2007<br/>Score: 0"],[1187598526000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 20 Aug 2007<br/>Score: 0"],[1188211750000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 27 Aug 2007<br/>Score: 0"],[1188808934000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 3 Sep 2007<br/>Score: 0"],[1189412763000,2,"<b>Mania (Altman)<\/b><br/>Date: Mon 10 Sep 2007<br/>Score: 2"],[1190096687000,7,"<b>Mania (Altman)<\/b><br/>Date: Tue 18 Sep 2007<br/>Score: 7"],[1190668542000,4,"<b>Mania (Altman)<\/b><br/>Date: Mon 24 Sep 2007<br/>Score: 4"],[1191769374000,7,"<b>Mania (Altman)<\/b><br/>Date: Sun 7 Oct 2007<br/>Score: 7"],[1191832924000,7,"<b>Mania (Altman)<\/b><br/>Date: Mon 8 Oct 2007<br/>Score: 7"],[1192601962000,3,"<b>Mania (Altman)<\/b><br/>Date: Wed 17 Oct 2007<br/>Score: 3"],[1193204690000,3,"<b>Mania (Altman)<\/b><br/>Date: Wed 24 Oct 2007<br/>Score: 3"],[1193660898000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 29 Oct 2007<br/>Score: 0"],[1194260307000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 5 Nov 2007<br/>Score: 0"],[1194886221000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 12 Nov 2007<br/>Score: 0"],[1195468730000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 19 Nov 2007<br/>Score: 0"],[1196076031000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 26 Nov 2007<br/>Score: 0"],[1196764615000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 4 Dec 2007<br/>Score: 0"],[1197290264000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 10 Dec 2007<br/>Score: 0"],[1197907073000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 17 Dec 2007<br/>Score: 0"],[1198493696000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 24 Dec 2007<br/>Score: 0"],[1199104869000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 31 Dec 2007<br/>Score: 0"],[1199710974000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 7 Jan 2008<br/>Score: 0"],[1200309058000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 14 Jan 2008<br/>Score: 0"],[1201794314000,5,"<b>Mania (Altman)<\/b><br/>Date: Thu 31 Jan 2008<br/>Score: 5"],[1201794468000,9,"<b>Mania (Altman)<\/b><br/>Date: Thu 31 Jan 2008<br/>Score: 9"],[1202734821000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 11 Feb 2008<br/>Score: 0"],[1203336364000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 18 Feb 2008<br/>Score: 0"],[1203935365000,5,"<b>Mania (Altman)<\/b><br/>Date: Mon 25 Feb 2008<br/>Score: 5"],[1204716029000,8,"<b>Mania (Altman)<\/b><br/>Date: Wed 5 Mar 2008<br/>Score: 8"],[1205170236000,9,"<b>Mania (Altman)<\/b><br/>Date: Mon 10 Mar 2008<br/>Score: 9"],[1207128460000,5,"<b>Mania (Altman)<\/b><br/>Date: Wed 2 Apr 2008<br/>Score: 5"],[1207128761000,7,"<b>Mania (Altman)<\/b><br/>Date: Wed 2 Apr 2008<br/>Score: 7"],[1207806399000,7,"<b>Mania (Altman)<\/b><br/>Date: Thu 10 Apr 2008<br/>Score: 7"],[1208352234000,8,"<b>Mania (Altman)<\/b><br/>Date: Wed 16 Apr 2008<br/>Score: 8"],[1208785573000,9,"<b>Mania (Altman)<\/b><br/>Date: Mon 21 Apr 2008<br/>Score: 9"],[1209723673000,0,"<b>Mania (Altman)<\/b><br/>Date: Fri 2 May 2008<br/>Score: 0"],[1210497687000,9,"<b>Mania (Altman)<\/b><br/>Date: Sun 11 May 2008<br/>Score: 9"],[1210669371000,11,"<b>Mania (Altman)<\/b><br/>Date: Tue 13 May 2008<br/>Score: 11"],[1211185803000,12,"<b>Mania (Altman)<\/b><br/>Date: Mon 19 May 2008<br/>Score: 12"],[1211956514000,7,"<b>Mania (Altman)<\/b><br/>Date: Wed 28 May 2008<br/>Score: 7"],[1212607840000,8,"<b>Mania (Altman)<\/b><br/>Date: Wed 4 Jun 2008<br/>Score: 8"],[1213003515000,10,"<b>Mania (Altman)<\/b><br/>Date: Mon 9 Jun 2008<br/>Score: 10"],[1213709101000,12,"<b>Mania (Altman)<\/b><br/>Date: Tue 17 Jun 2008<br/>Score: 12"],[1214216420000,10,"<b>Mania (Altman)<\/b><br/>Date: Mon 23 Jun 2008<br/>Score: 10"],[1214814539000,11,"<b>Mania (Altman)<\/b><br/>Date: Mon 30 Jun 2008<br/>Score: 11"],[1215424502000,9,"<b>Mania (Altman)<\/b><br/>Date: Mon 7 Jul 2008<br/>Score: 9"],[1216222957000,11,"<b>Mania (Altman)<\/b><br/>Date: Wed 16 Jul 2008<br/>Score: 11"],[1216629488000,8,"<b>Mania (Altman)<\/b><br/>Date: Mon 21 Jul 2008<br/>Score: 8"],[1217233775000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 28 Jul 2008<br/>Score: 0"],[1217850826000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 4 Aug 2008<br/>Score: 0"],[1218521877000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 12 Aug 2008<br/>Score: 0"],[1219075215000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 18 Aug 2008<br/>Score: 0"],[1219653884000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 25 Aug 2008<br/>Score: 0"],[1220257310000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 1 Sep 2008<br/>Score: 0"],[1220863260000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 8 Sep 2008<br/>Score: 0"],[1221467514000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 15 Sep 2008<br/>Score: 0"],[1222071727000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 22 Sep 2008<br/>Score: 0"],[1222676840000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 29 Sep 2008<br/>Score: 0"],[1223281169000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 6 Oct 2008<br/>Score: 0"],[1223886065000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 13 Oct 2008<br/>Score: 0"],[1224492989000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 20 Oct 2008<br/>Score: 0"],[1225117533000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 27 Oct 2008<br/>Score: 0"],[1225711184000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 3 Nov 2008<br/>Score: 0"],[1226313476000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 10 Nov 2008<br/>Score: 0"],[1226920647000,1,"<b>Mania (Altman)<\/b><br/>Date: Mon 17 Nov 2008<br/>Score: 1"],[1228126980000,6,"<b>Mania (Altman)<\/b><br/>Date: Mon 1 Dec 2008<br/>Score: 6"],[1229337454000,9,"<b>Mania (Altman)<\/b><br/>Date: Mon 15 Dec 2008<br/>Score: 9"],[1230052557000,9,"<b>Mania (Altman)<\/b><br/>Date: Tue 23 Dec 2008<br/>Score: 9"],[1230052609000,10,"<b>Mania (Altman)<\/b><br/>Date: Tue 23 Dec 2008<br/>Score: 10"],[1230546217000,13,"<b>Mania (Altman)<\/b><br/>Date: Mon 29 Dec 2008<br/>Score: 13"],[1231320576000,12,"<b>Mania (Altman)<\/b><br/>Date: Wed 7 Jan 2009<br/>Score: 12"],[1231755863000,9,"<b>Mania (Altman)<\/b><br/>Date: Mon 12 Jan 2009<br/>Score: 9"],[1232360762000,6,"<b>Mania (Altman)<\/b><br/>Date: Mon 19 Jan 2009<br/>Score: 6"],[1233053924000,7,"<b>Mania (Altman)<\/b><br/>Date: Tue 27 Jan 2009<br/>Score: 7"],[1233575527000,5,"<b>Mania (Altman)<\/b><br/>Date: Mon 2 Feb 2009<br/>Score: 5"],[1234176376000,3,"<b>Mania (Altman)<\/b><br/>Date: Mon 9 Feb 2009<br/>Score: 3"],[1234868062000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 17 Feb 2009<br/>Score: 0"],[1235384531000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 23 Feb 2009<br/>Score: 0"],[1235989740000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 2 Mar 2009<br/>Score: 0"],[1236594062000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 9 Mar 2009<br/>Score: 0"],[1237198847000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 16 Mar 2009<br/>Score: 0"],[1237804735000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 23 Mar 2009<br/>Score: 0"],[1238401276000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 30 Mar 2009<br/>Score: 0"],[1239028802000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 6 Apr 2009<br/>Score: 0"],[1239626034000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 13 Apr 2009<br/>Score: 0"],[1240215563000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 20 Apr 2009<br/>Score: 0"],[1240820505000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 27 Apr 2009<br/>Score: 0"],[1241429967000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 4 May 2009<br/>Score: 0"],[1242030017000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 11 May 2009<br/>Score: 0"],[1242634787000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 18 May 2009<br/>Score: 0"],[1243245811000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 25 May 2009<br/>Score: 0"],[1243844379000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 1 Jun 2009<br/>Score: 0"],[1244452379000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 8 Jun 2009<br/>Score: 0"],[1245054098000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 15 Jun 2009<br/>Score: 0"],[1245658714000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 22 Jun 2009<br/>Score: 0"],[1246265144000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 29 Jun 2009<br/>Score: 0"],[1246988535000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 7 Jul 2009<br/>Score: 0"],[1247536661000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 14 Jul 2009<br/>Score: 0"],[1248129776000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 20 Jul 2009<br/>Score: 0"],[1248700002000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 27 Jul 2009<br/>Score: 0"],[1249298823000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 3 Aug 2009<br/>Score: 0"],[1249892375000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 10 Aug 2009<br/>Score: 0"],[1250497372000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 17 Aug 2009<br/>Score: 0"],[1251102548000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 24 Aug 2009<br/>Score: 0"],[1251706934000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 31 Aug 2009<br/>Score: 0"],[1252311920000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 7 Sep 2009<br/>Score: 0"],[1252917919000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 14 Sep 2009<br/>Score: 0"],[1253521149000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 21 Sep 2009<br/>Score: 0"],[1254132934000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 28 Sep 2009<br/>Score: 0"],[1254730734000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 5 Oct 2009<br/>Score: 0"],[1255359044000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 12 Oct 2009<br/>Score: 0"],[1255940505000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 19 Oct 2009<br/>Score: 0"],[1256552791000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 26 Oct 2009<br/>Score: 0"],[1257160102000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 2 Nov 2009<br/>Score: 0"],[1257761925000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 9 Nov 2009<br/>Score: 0"],[1258366693000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 16 Nov 2009<br/>Score: 0"],[1258971729000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 23 Nov 2009<br/>Score: 0"],[1259576325000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 30 Nov 2009<br/>Score: 0"],[1260181736000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 7 Dec 2009<br/>Score: 0"],[1260828674000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 14 Dec 2009<br/>Score: 0"],[1261390820000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 21 Dec 2009<br/>Score: 0"],[1262608598000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 4 Jan 2010<br/>Score: 0"],[1263205902000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 11 Jan 2010<br/>Score: 0"],[1263903427000,2,"<b>Mania (Altman)<\/b><br/>Date: Tue 19 Jan 2010<br/>Score: 2"],[1264415019000,1,"<b>Mania (Altman)<\/b><br/>Date: Mon 25 Jan 2010<br/>Score: 1"],[1265023269000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 1 Feb 2010<br/>Score: 0"],[1265624344000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 8 Feb 2010<br/>Score: 0"],[1266229656000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 15 Feb 2010<br/>Score: 0"],[1266833917000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 22 Feb 2010<br/>Score: 0"],[1267448767000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 1 Mar 2010<br/>Score: 0"],[1268043603000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 8 Mar 2010<br/>Score: 0"],[1268648965000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 15 Mar 2010<br/>Score: 0"],[1269253297000,0,"<b>Mania (Altman)<\/b><br/>Date: Mon 22 Mar 2010<br/>Score: 0"],[1269953285000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 30 Mar 2010<br/>Score: 0"],[1270542458000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 6 Apr 2010<br/>Score: 0"],[1271147460000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 13 Apr 2010<br/>Score: 0"],[1271757132000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 20 Apr 2010<br/>Score: 0"],[1272368734000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 27 Apr 2010<br/>Score: 0"],[1272970653000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 4 May 2010<br/>Score: 0"],[1273656264000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 12 May 2010<br/>Score: 0"],[1274179151000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 18 May 2010<br/>Score: 0"],[1274790377000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 25 May 2010<br/>Score: 0"],[1275388084000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 1 Jun 2010<br/>Score: 0"],[1275990314000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 8 Jun 2010<br/>Score: 0"],[1276602006000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 15 Jun 2010<br/>Score: 0"],[1277204363000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 22 Jun 2010<br/>Score: 0"],[1277803576000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 29 Jun 2010<br/>Score: 0"],[1278410497000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 6 Jul 2010<br/>Score: 0"],[1279012998000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 13 Jul 2010<br/>Score: 0"],[1279621891000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 20 Jul 2010<br/>Score: 0"],[1280302347000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 28 Jul 2010<br/>Score: 0"],[1280862533000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 3 Aug 2010<br/>Score: 0"],[1281465941000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 10 Aug 2010<br/>Score: 0"],[1282057928000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 17 Aug 2010<br/>Score: 0"],[1282642410000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 24 Aug 2010<br/>Score: 0"],[1283247681000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 31 Aug 2010<br/>Score: 0"],[1283868923000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 7 Sep 2010<br/>Score: 0"],[1284495701000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 14 Sep 2010<br/>Score: 0"],[1285062921000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 21 Sep 2010<br/>Score: 0"],[1285689496000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 28 Sep 2010<br/>Score: 0"],[1286290135000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 5 Oct 2010<br/>Score: 0"],[1286876749000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 12 Oct 2010<br/>Score: 0"],[1287486483000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 19 Oct 2010<br/>Score: 0"],[1288085266000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 26 Oct 2010<br/>Score: 0"],[1288693870000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 2 Nov 2010<br/>Score: 0"],[1289299864000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 9 Nov 2010<br/>Score: 0"],[1289909216000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 16 Nov 2010<br/>Score: 0"],[1290508037000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 23 Nov 2010<br/>Score: 0"],[1291113310000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 30 Nov 2010<br/>Score: 0"],[1291718299000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 7 Dec 2010<br/>Score: 0"],[1292322302000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 14 Dec 2010<br/>Score: 0"],[1292928149000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 21 Dec 2010<br/>Score: 0"],[1293538156000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 28 Dec 2010<br/>Score: 0"],[1294137079000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 4 Jan 2011<br/>Score: 0"],[1294750063000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 11 Jan 2011<br/>Score: 0"],[1295353256000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 18 Jan 2011<br/>Score: 0"],[1296034141000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 26 Jan 2011<br/>Score: 0"],[1296557355000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 1 Feb 2011<br/>Score: 0"],[1297251576000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 9 Feb 2011<br/>Score: 0"],[1297769146000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 15 Feb 2011<br/>Score: 0"],[1298454802000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 23 Feb 2011<br/>Score: 0"],[1298976035000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 1 Mar 2011<br/>Score: 0"],[1299583565000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 8 Mar 2011<br/>Score: 0"],[1300274250000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 16 Mar 2011<br/>Score: 0"],[1300794820000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 22 Mar 2011<br/>Score: 0"],[1301390447000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 29 Mar 2011<br/>Score: 0"],[1301995692000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 5 Apr 2011<br/>Score: 0"],[1302622389000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 12 Apr 2011<br/>Score: 0"],[1303222938000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 19 Apr 2011<br/>Score: 0"],[1303912896000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 27 Apr 2011<br/>Score: 0"],[1304432073000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 3 May 2011<br/>Score: 0"],[1305105828000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 11 May 2011<br/>Score: 0"],[1305625346000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 17 May 2011<br/>Score: 0"],[1306230446000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 24 May 2011<br/>Score: 0"],[1306837068000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 31 May 2011<br/>Score: 0"],[1307524943000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 8 Jun 2011<br/>Score: 0"],[1308045887000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 14 Jun 2011<br/>Score: 0"],[1308734811000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 22 Jun 2011<br/>Score: 0"],[1309256358000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 28 Jun 2011<br/>Score: 0"],[1309878572000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 5 Jul 2011<br/>Score: 0"],[1310549285000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 13 Jul 2011<br/>Score: 0"],[1311106505000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 19 Jul 2011<br/>Score: 0"],[1312290351000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 2 Aug 2011<br/>Score: 0"],[1313136754000,0,"<b>Mania (Altman)<\/b><br/>Date: Fri 12 Aug 2011<br/>Score: 0"],[1313493086000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 16 Aug 2011<br/>Score: 0"],[1315297189000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 6 Sep 2011<br/>Score: 0"],[1315992583000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 14 Sep 2011<br/>Score: 0"],[1316511181000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 20 Sep 2011<br/>Score: 0"],[1317199533000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 28 Sep 2011<br/>Score: 0"],[1317806489000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 5 Oct 2011<br/>Score: 0"],[1318412415000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 12 Oct 2011<br/>Score: 0"],[1319010963000,0,"<b>Mania (Altman)<\/b><br/>Date: Wed 19 Oct 2011<br/>Score: 0"],[1319555830000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 25 Oct 2011<br/>Score: 0"],[1320145764000,0,"<b>Mania (Altman)<\/b><br/>Date: Tue 1 Nov 2011<br/>Score: 0"],[1326303024000,11,"<b>Mania (Altman)<\/b><br/>Date: Wed 11 Jan 2012<br/>Score: 11"]],"lineWidth":2,"lines":{"show":true},"label":"Mania (Altman)","points":{"symbol":"circle","hoverable":true,"radius":2,"show":true}},{"dashes":{"dashLength":3,"lineWidth":2,"show":true},"color":"#ff0000","data":[],"lineWidth":2,"label":""},{"color":"gray","data":[],"shadowSize":0,"label":"","points":{"symbol":"cross","hoverable":true,"radius":4,"show":true}}];
+
+</script>
+    
+    <script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_008.js"></script>
+    <script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_007.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery-ui-1.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_004.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_012.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_002.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_006.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_003.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/date.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_005.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/main.js"></script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/jquery_013.js"> </script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/modernizr-2.js"> </script>
+	<script type="text/javascript" src="Graph%20_%20True%20Colours_files/respond.js"> </script>
+	
+	
+		<script src="Graph%20_%20True%20Colours_files/excanvas.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_009.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_011.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_020.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_017.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_018.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_016.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_010.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_015.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_019.js" type="text/javascript"></script>
+		<script src="Graph%20_%20True%20Colours_files/jquery_014.js" type="text/javascript"></script>
+		<script type="text/javascript" src="Graph%20_%20True%20Colours_files/graph2.js"></script>
+		
+		
+	
+</head>
+<body>
+<div id="page" class="system">
+<div id="header">
+	
+
+
+		<div class="left-col">
+				<a href="graph.jsp">
+					<img id="logo" alt="True Colours logo" src="Graph%20_%20True%20Colours_files/tc_logo.gif">
+				</a>
+				<hr>
+		<div class="sys-title">Self-Management System</div>
+		</div>
+		
+		<div class="right-col">
+			
+
+
+
+
+
+
+
+		<img alt="Participant" src="Graph%20_%20True%20Colours_files/icon_participant.gif">
+	
+			<span class="participant-name">Fairfax&nbsp;Salter</span>
+			<br class="hidden">
+			
+				<img class="hidden" alt="splitter" src="Graph%20_%20True%20Colours_files/spliter.gif">
+				<a href="blur.jsp?forwardPage=details.jsp">My details</a>
+			
+			<img alt="splitter" src="Graph%20_%20True%20Colours_files/spliter.gif">
+			<a href="doLogout.jsp">Sign Out</a>
+	
+	
+
+
+
+
+		</div>
+		<div class="clearb"></div>
+	<div class="clearb"></div>
+	
+
+
+
+			
+
+
+
+
+<div id="nav-level1">
+<ul>
+		
+					<li class="selected"><a>My Graph</a></li>
+
+					
+	<li><a href="questionnaire.jsp">Questionnaires</a></li>
+					
+	<li><a href="notes.jsp">My Notes</a></li>
+					
+	<li><a href="contactUs.jsp">Contact us</a></li>
+					
+	<li><a href="information.jsp">Information</a></li>
+					
+</ul>
+<div class="clearb"></div>
+</div>
+			
+	<div class="clearb"></div>
+</div>
+<div id="content-level2">
+	
+
+
+
+			
+
+
+
+
+
+			
+	<div class="clearb"></div>
+	
+
+
+
+	
+
+
+	<script type="text/javascript">
+				$(document).ready(function(){
+					var errorMessage = 'null';
+					if(errorMessage != null && '' != errorMessage && 'null' != errorMessage)
+					{
+						$('#contactErrorMessage').writeError('null');
+						
+					}
+				
+				
+				});
+	</script>
+	<div id="contactErrorMessage" class="error-message">&nbsp;</div>
+ 
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[if IE]>
+	<script type="text/javascript">
+		retinaMode = false;
+	</script>
+
+<![endif]-->
+<div id="testAnnotationSize" class="graphAnnotation tickLabel">Ty</div>
+
+	<div id="controlPanel" class="graph-options">
+		<div class="options-title">
+			<a id="controlPanelTitle" onclick="collapseOptions();" class="arrows-right-up">
+				Key / Options
+			</a>
+		</div>
+		<ul>
+			
+			<li>
+				<div class="options-subtitle">Line Graph Display</div>
+				<table>
+					
+						<tbody><tr>
+							<td style="width: 1.5em;">
+								<span id="key0" style="width: 1.3em; height: 1.3em; padding: 0px; position: relative;"><canvas style="width: 18px; height: 18px;" height="36" width="36" class="base"></canvas><canvas style="position: absolute; left: 0px; top: 0px; width: 18px; height: 18px;" height="36" width="36" class="overlay"></canvas></span>
+							</td>
+							<td>
+								<span> Depression (QIDS) </span>
+							</td>
+							<td style="width: 1.5em;">
+								<input checked="checked" name="graphCheck" onclick="drawAllGraphs();" value="0" type="checkbox">
+							</td>
+						</tr>
+						
+						<tr>
+							<td style="width: 1.5em;">
+								<span id="key1" style="width: 1.3em; height: 1.3em; padding: 0px; position: relative;"><canvas style="width: 18px; height: 18px;" height="36" width="36" class="base"></canvas><canvas style="position: absolute; left: 0px; top: 0px; width: 18px; height: 18px;" height="36" width="36" class="overlay"></canvas></span>
+							</td>
+							<td>
+								<span> Mania (Altman) </span>
+							</td>
+							<td style="width: 1.5em;">
+								<input checked="checked" name="graphCheck" onclick="drawAllGraphs();" value="1" type="checkbox">
+							</td>
+						</tr>
+						
+						
+				</tbody></table>
+			</li>
+			
+<li>
+				<div class="options-subtitle">Time Period</div>
+					<div style="margin-left: 1.5em; text-align: left;">
+						<select id="rangeSelect" name="duration" style="width: 10em;" onchange="changeRange();">
+							<option value="1">Last month</option>
+							<option value="3">Last 3 months</option>
+							<option value="6">Last 6 months</option>
+							<option value="9">Last 9 months</option>
+							<option value="12">Last year</option>
+							<option selected="selected" value="full">Full</option>
+							<option value="period">Other...</option>
+						</select>
+						
+						<table style="width: 100%; display: none;" id="toFromRange">
+							<tbody><tr>
+								<td>
+									<label>From:</label>
+								</td>
+								<td>
+									<input class="hasDatepicker" style="width: 10em" id="dp1" name="dp1" value="09/05/2007" type="text">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>To:</label>
+								</td>
+								<td>
+									<input class="hasDatepicker" style="width: 10em" id="dp2" name="dp2" value="31/01/2013" type="text">
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+								  	
+
+
+<span class="green-button button-left">
+	<button type="submit" class="default" id="redraw" name="redraw" onclick="drawAllGraphs();">
+		<span style="white-space: nowrap;">Redraw<img src="Graph%20_%20True%20Colours_files/white_arr.png" alt="Redraw"> </span>
+	</button>
+</span>
+
+								</td>
+							</tr>
+						</tbody></table>
+					</div>
+				</li>
+</ul>
+			<div class="clearb"></div>
+		</div>	
+		<div id="buffer" style="display: none; width: 72%; height: 2em; float: left;">&nbsp;</div> 
+		<div id="graphDiv">
+			<noscript>
+				This page uses Javascript to show your graphs. Please enable Javascript in your browser to see the full page. Thank you.
+			</noscript>
+<div id="lineGraph" style="width: 100%; height: 20em; float: left; padding: 0px; position: relative;"></div>
+			
+			
+			
+					
+	
+			<div class="clearb" style="width: 100%; height: 5em; align:center;float: left;">&nbsp;</div>
+		</div>		
+	 	<div class="clearb"></div>
+<script type="text/javascript">
+
+var lineGraphQuestionnaires = [{"earliestResponse":1179138759000,"isPersonalisedQuestionnaire":false,"questionnairePrefix":"Q","questionnaireLineType":"Solid","questionnaireMinPossibleScore":0,"colour":"#0000ff","questionnaireName":"Depression (QIDS)","questionnairePointType":"Circle","questionnaireMaxPossibleScore":27,"noQuestions":16,"questionnaireID":9,"questionnairePrimaryKey":"3","questionnaireShortName":"QIDS","latestResponse":1326303025000},{"earliestResponse":1179138172000,"isPersonalisedQuestionnaire":false,"questionnairePrefix":"A","questionnaireLineType":"Solid","questionnaireMinPossibleScore":0,"colour":"#ff0000","questionnaireName":"Mania (Altman)","questionnairePointType":"Square","questionnaireMaxPossibleScore":20,"noQuestions":5,"questionnaireID":1,"questionnairePrimaryKey":"1","questionnaireShortName":"ALTMAN","latestResponse":1326303024000}];
+var personalisedQuestions = [{"questionQuestionText":"How many nights this week did I write stories?","questionID":119,"earliestResponse":1251111600000,"questionDataType":"Numeric","latestResponse":1271070000000},{"questionQuestionText":"This morning, at what time did you get up? Use the 24 hour clock e.g. 08:15","questionID":183,"earliestResponse":1359200756290,"questionDataType":"TimeOfDay","latestResponse":1359200756290}];
+
+
+
+	        function drawAllGraphs()
+	        {
+	        
+
+		drawLineGraph();
+				
+				
+	        }
+			
+	        var optionsDisplayed = true;
+			
+			function collapseOptions()
+			{
+				if(optionsDisplayed)
+				{
+					$('#controlPanel ul').hide("blind",1000, function(){
+						$('#graphDiv').css({width:"100%", clear: "both"});
+						$('#buffer').show();
+						$('#controlPanelTitle').removeClass("arrows-right-up");
+						$('#controlPanelTitle').addClass("arrows-right-down");
+						optionsDisplayed = false;
+						drawAnnotations();
+					});
+				}
+				else
+				{
+					$('#graphDiv').css({width:"72%", clear: "none"});
+					$('#buffer').hide();
+					$('#controlPanel ul').show("blind",1000);
+					$('#controlPanelTitle').addClass("arrows-right-up");
+					$('#controlPanelTitle').removeClass("arrows-right-down");
+					optionsDisplayed = true;
+					drawAnnotations();
+					
+				}
+			}
+			
+			$(document).ready(function(){
+				//$("#rangeSelect").selectmenu();
+			    /*$('#controlPanel').panel({
+			    	collapseSpeed:500,
+	                fold: function() {
+	                	setTimeout(function(){
+	                		
+						graph.draw();
+						},500);},
+                    unfold: function() { 
+                    	$('#graphDiv').css({width:"72%"});
+	                	graph.draw();
+                    }
+                });*/	
+			    
+				$("#dp1").datepicker({ minDate: "-10Y", maxDate: "+1M", dateFormat: "dd/mm/yy"});
+				$("#dp2").datepicker({ minDate: "-10Y", maxDate: "+1M", dateFormat: "dd/mm/yy"});
+				$("#downloadQidsAltman").button().click(function(){
+					
+				});
+				
+				drawAllGraphs();
+				drawAllKeys();
+			    
+			    
+			    
+			}); 
+			function changeRange(){
+				var rangeSelect = $("#rangeSelect").val();
+				if(rangeSelect=='period')
+				{
+					$('#toFromRange').show();				
+				}
+				else{
+					$('#toFromRange').hide();
+					
+					drawAllGraphs();
+				}
+				
+			}
+			
+			
+			
+			var activeGraphDiv = $('#lineGraph');
+			
+
+			
+						
+			
+</script>
+	
+		
+		
+
+<div class="clearb"></div>
+</div>
+</div>
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"><div class="calendar-dialog-inner"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" onclick="DP_jQuery_1359214528808.datepicker._adjustDate('#dp2', -1, 'M');" title="Prev"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a><a class="ui-datepicker-next ui-corner-all" onclick="DP_jQuery_1359214528808.datepicker._adjustDate('#dp2', +1, 'M');" title="Next"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">January</span>&nbsp;<span class="ui-datepicker-year">2013</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th class="ui-datepicker-week-end"><span title="Sunday">Su</span></th><th><span title="Monday">Mo</span></th><th><span title="Tuesday">Tu</span></th><th><span title="Wednesday">We</span></th><th><span title="Thursday">Th</span></th><th><span title="Friday">Fr</span></th><th class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">1</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">2</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">3</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">4</a></td><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">5</a></td></tr><tr><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">6</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">7</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">8</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">9</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">10</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">11</a></td><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">12</a></td></tr><tr><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">13</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">14</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">15</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">16</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">17</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">18</a></td><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">19</a></td></tr><tr><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">20</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">21</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">22</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">23</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">24</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">25</a></td><td class=" ui-datepicker-week-end  ui-datepicker-today" onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default ui-state-highlight" href="#">26</a></td></tr><tr><td class=" ui-datepicker-week-end " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">27</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">28</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">29</a></td><td class=" " onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default" href="#">30</a></td><td class="  ui-datepicker-current-day" onclick="DP_jQuery_1359214528808.datepicker._selectDay('#dp2',0,2013, this);return false;"><a class="ui-state-default ui-state-active" href="#">31</a></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div></div></body></html>
