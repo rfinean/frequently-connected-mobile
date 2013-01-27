@@ -18,7 +18,9 @@
         <p><a href="tc/index.html">True Colours</a></p>
         <script type = "text/javascript">
             var running = false;
-            var syncUrl = 'http://timp.iriscouch.com/';
+            //var syncUrl = 'http://timp.iriscouch.com/myapp';
+            //var syncUrl = 'http://127.0.0.1:2020/myapp';
+            var syncUrl = 'http://127.0.0.1:5984/myapp';
 
             function getDoc(id, callback) {
 				pouchdb.allDocs({include_docs : true}, function(err, docs) {
