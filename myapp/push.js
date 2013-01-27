@@ -8,7 +8,9 @@ var serverPath = path.join(__dirname, '..','www'),
 	appPath = path.join(__dirname, "myapp"),
 	id = "myapp",
 	serverUrl = "http://localhost:5984/myapp-server/myapp",
+//	serverUrl = "http://timp.iriscouch.com/myapp-server/myapp",
 	appUrl = "http://localhost:5984/myapp/myapp";
+//	appUrl = "http://timp.iriscouch.com/myapp/myapp";
 
 
 function doPushApp() {
